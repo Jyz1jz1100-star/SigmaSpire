@@ -1,0 +1,266 @@
+{
+  "project": "SigmaSpire",
+  "release": "r60-c9-r51-20261105",
+  "createdUtc": "2026-11-05T08:00:31.446682+00:00",
+  "status": "latest actually deployed development model snapshot",
+  "integrationVersion": "R60",
+  "combatModel": "C9 / r49-candidate009-deployed",
+  "outsideModel": "R51 joint candidate 001",
+  "roles": {
+    "afterstate": "models/r49-control-afterstate/model.json",
+    "auxiliary": "models/r49-control-auxiliary/model.json",
+    "primary": "models/r49-deploy-candidate009/model.json",
+    "rlProposal": "models/r49-control-rlProposal/model.json",
+    "student": "models/r49-control-student/model.json",
+    "joint_long_value": "models/r51-joint-candidate-001/model.json"
+  },
+  "compatibility": {
+    "gameAssemblyId": "73b63ee0-6c0a-47bb-b0d1-b21f6d94222e",
+    "solverAssemblyId": "76c1118e-0199-4ee9-a127-63e567604b95",
+    "combatSchema": "visible-r48-semantic-policy-value-v2",
+    "outsideSchema": "r51-public-joint-value-v1"
+  },
+  "formalAcceptance": false,
+  "unseenWinRate": null,
+  "newerWork": "R61 capability upgrade is in development and is not a released checkpoint",
+  "files": {
+    "models/r49-control-afterstate/model.json": {
+      "bytes": 1795861,
+      "sha256": "dd6f3dd98ea20330b89550c32a3ec2a4d6b3839e45110b4a4e620ae3ab19b617",
+      "role": "afterstate",
+      "sealedIdentityVerified": true
+    },
+    "models/r49-control-auxiliary/model.json": {
+      "bytes": 1191751,
+      "sha256": "7c5d9eb9f31ff812053401b69987bdf706354d162d9309658d5dc963ce1f50fd",
+      "role": "auxiliary",
+      "sealedIdentityVerified": true
+    },
+    "models/r49-deploy-candidate009/model.json": {
+      "bytes": 3674537,
+      "sha256": "e241e144410f889d9580f871c971f026e4b2390b5cfca722406100802b90d293",
+      "role": "primary",
+      "sealedIdentityVerified": true
+    },
+    "models/r49-control-rlProposal/model.json": {
+      "bytes": 1585628,
+      "sha256": "69932be26bb85a1e592940cdfcd609a6c18373509fc86837b3ea351088cf814e",
+      "role": "rlProposal",
+      "sealedIdentityVerified": true
+    },
+    "models/r49-control-student/model.json": {
+      "bytes": 1474213,
+      "sha256": "7f0ecd74b4176aec7208ad2dc6320f98221e8716d6074ad86853a082babbe7eb",
+      "role": "student",
+      "sealedIdentityVerified": true
+    },
+    "models/r51-joint-candidate-001/model.json": {
+      "bytes": 1371215,
+      "sha256": "5364022bc49374ca1d4aafaaeec1017d7a9a915fbe39ae9956ec857b5e202649",
+      "role": "joint_long_value",
+      "sealedIdentityVerified": true
+    },
+    "models/r30-resource-linear-006/model.json": {
+      "bytes": 3115,
+      "sha256": "14e20e87fc4ac86d30c7488f795b04ff75ff77388824229ab136b897c1ed0696",
+      "role": "resource_potential",
+      "sealedIdentityVerified": true
+    },
+    "models/r5-mechanics-draft-001/model.json": {
+      "bytes": 374893,
+      "sha256": "4ff372a3f0b361450d7ca350033796640a8615383d146873a215b4f57d54a86f",
+      "role": "mechanics_draft_path",
+      "sealedIdentityVerified": true
+    },
+    "models/r4-public-native-draft-clean-001/model.json": {
+      "bytes": 226849,
+      "sha256": "acbea081252f6bd80ea9a97d73f4119d5c18a6b3e3fd35528c327e382677d610",
+      "role": "mechanics_draft_referencePath",
+      "sealedIdentityVerified": true
+    },
+    "models/r5-mechanics-draft-001/support.json": {
+      "bytes": 32191,
+      "sha256": "d691683d9e857ee64e7aad92541f302abe892bfaf6536a006d15f80821371840",
+      "role": "mechanics_draft_supportPath",
+      "sealedIdentityVerified": true
+    },
+    "models/r49-deploy-candidate009/binding.json": {
+      "bytes": 410,
+      "sha256": "587ae517cee20a5ea56d7a5df87f26e1feb177ef0ab4ba6eef3294cbcb70cc5d",
+      "role": "primary_binding",
+      "sealedIdentityVerified": true
+    },
+    "models/r48-candidate009-token-policy-value/checkpoint.pt": {
+      "bytes": 1445045,
+      "sha256": "13e17abd7ac07cb314bf0d85dd046289de437d6d1729bcdbff5e95f11ebbdc89",
+      "role": "primary_training_checkpoint",
+      "sealedIdentityVerified": true
+    },
+    "models/r3-long-value-v2/model.json": {
+      "bytes": 272822,
+      "sha256": "e4ba3e3920525e2f372c4c961bc5334fbde7a8859fa36bcd1711fb4a21bfcdd1",
+      "role": "legacy_continuation_value",
+      "sealedIdentityVerified": false
+    },
+    "models/r10-whole-deck-001/upgrade-catalog.json": {
+      "bytes": 274788,
+      "sha256": "117a61374a00748ae57527dd690bacff44ec374f23917c67411acc139c5981ce",
+      "role": "upgrade_catalog",
+      "sealedIdentityVerified": true
+    },
+    "configs/r49_candidate009_primary_deployment.json": {
+      "bytes": 952,
+      "sha256": "1ecf6ac12265458bfe7f46736f6b2ef9fc0fd282a5a1b033fad6bf314978b29f",
+      "role": "deployment",
+      "sealedIdentityVerified": true
+    },
+    "configs/r49_auxiliary_deployment.json": {
+      "bytes": 321,
+      "sha256": "b180d133d2a902e6f0d084fdb706ab21e2abb2a74dab897b0ca4f5be39886e5e",
+      "role": "deployment",
+      "sealedIdentityVerified": true
+    },
+    "configs/r49_student_deployment.json": {
+      "bytes": 319,
+      "sha256": "db3e17bd8919f200a7e5ef8cbaebfef5cc9d9a4e177fa595fc5e84b5e2c1f72e",
+      "role": "deployment",
+      "sealedIdentityVerified": true
+    },
+    "configs/r60_public_relic_compatibility.json": {
+      "bytes": 81363,
+      "sha256": "6ec25ea420ac1247cd0744da925fa2c5983a360c53d9329e71a4f2ce0f5de6e6",
+      "role": "public_relic_compatibility",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/__init__.py": {
+      "bytes": 73,
+      "sha256": "9dc4daa183dfcf5fbaf12121df43d919f4d24a0f4247004764cad3c3fe521ef2",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/codec.py": {
+      "bytes": 3673,
+      "sha256": "d1d1f47951791882315196a27cbf14b98bfd6e9d2fe1db02de5b2a4e47c3c198",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/codec_v2.py": {
+      "bytes": 1251,
+      "sha256": "7a6711205f4730596f4a0c2c591a5f3fa014f03559b7d776a67ac6c8c7c6152d",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/model.py": {
+      "bytes": 4330,
+      "sha256": "82fee93c47db58b34750cff8ffb46a9818a75790cb5c76fc3a08ea7f89b9a282",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/model_compact.py": {
+      "bytes": 663,
+      "sha256": "0f82709c4d74269391ccaf786875a9cabab3501029554d576e4a063b9146ba58",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/model_micro.py": {
+      "bytes": 776,
+      "sha256": "8de67613812e129bfc6ad30a64c6ff0c8ea4ccf0adfae47d05b82fa1f5ac459d",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/model_v2.py": {
+      "bytes": 1033,
+      "sha256": "5e06c9a8a70ae4bac39c22e20bf2e555019d056b147879640f34fc93d7430bfc",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r48_learning/model_v3.py": {
+      "bytes": 1741,
+      "sha256": "e37a23b70a5d1791b7c51050036f7b4b3060407a7e918ed51a68dfae6b3d7d8e",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/codec.py": {
+      "bytes": 14562,
+      "sha256": "779f53d2da21cb1e8090806e4add02449fc1548e96fbe6855f999658d00c6eb4",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/data.py": {
+      "bytes": 8093,
+      "sha256": "217a457ea536756ac5d69b889daee9ea2d9712729a1eeb15582a437b21cdf9bb",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/inference.py": {
+      "bytes": 2257,
+      "sha256": "405977f9b1505fdbeec2a251327a9fca86fca8b4441f6793378842b8a72f5dee",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/learning.py": {
+      "bytes": 2561,
+      "sha256": "294c9a9882a6701ff396af64e19bb50e4cb0cdb999e7f4c4382e04a6de974f9a",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/market.py": {
+      "bytes": 3622,
+      "sha256": "84efaed43b5042174ff1323b037e0ceabdcde81af62452626d8d32d5bb4c5c3c",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/planner.py": {
+      "bytes": 4257,
+      "sha256": "1e05b1f4ead2942591b59b580bb35c7407d243f1b5c1bfa8d400179822c6e928",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/probe_loadout.py": {
+      "bytes": 3777,
+      "sha256": "976cb078b97d77421536b9ed286a33d20911782ce8d45f4044465ece847e171a",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/probe_runtime.py": {
+      "bytes": 7611,
+      "sha256": "126b6573418378fb0a307509251997f2eabd00a41496c316bfdeb53555453849",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/public_map.py": {
+      "bytes": 5816,
+      "sha256": "fb5a7fa6a86deefe4290f109c38be75895d4185418c18a33a01b15bbb789f826",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/resources.py": {
+      "bytes": 4065,
+      "sha256": "a534b75a378ceaf540e6e5db605b860ae284d0daa159d006e72623c1d2d92eaa",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/runtime.py": {
+      "bytes": 14324,
+      "sha256": "68140c4da9a2bb669b4c80829d0df7c4d742b72d049d4baded4b4d8fb802dc65",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "src/r51_joint_value/shop_candidates.py": {
+      "bytes": 4127,
+      "sha256": "b6b32f6c3582af326da956c8e7022247499e800a50440d23e06b4a527d32c51c",
+      "role": "model_reference_source",
+      "sealedIdentityVerified": true
+    },
+    "licenses/CombatSolver-LICENSE.txt": {
+      "bytes": 1176,
+      "sha256": "2b1c8f5a1d8e3f6ea35b3f61d5d55ffd6a859126e9bddbb1abcbfd98a7c6397f",
+      "role": "upstream_notice"
+    },
+    "licenses/CombatSolver-THIRD_PARTY_NOTICES.txt": {
+      "bytes": 2444,
+      "sha256": "309dcd321323622bc8bb1f906556aabfc9806b3661f2ac824bad950fc5a6bbc0",
+      "role": "upstream_notice"
+    }
+  }
+}
